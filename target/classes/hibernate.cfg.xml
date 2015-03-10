@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://desarrollo.is.escuelaing.edu.co:3306/coswg2</property>
+    <property name="hibernate.connection.username">coswg2</property>
+    <property name="hibernate.connection.password">coswg20215</property>
+    <mapping class="com.tservice.tserviceversion2.Licencias"/>
+    <mapping class="com.tservice.tserviceversion2.Calificacion"/>
+    <mapping class="com.tservice.tserviceversion2.Interes"/>
+    <mapping class="com.tservice.tserviceversion2.HojaDeVida"/>
+    <mapping class="com.tservice.tserviceversion2.Factura"/>
+    <mapping class="com.tservice.tserviceversion2.ExperienciaLaboral"/>
+    <mapping class="com.tservice.tserviceversion2.Oferta"/>
+    <mapping class="com.tservice.tserviceversion2.Publicante"/>
+    <mapping class="com.tservice.tserviceversion2.Postulante"/>
+    <mapping class="com.tservice.tserviceversion2.Categoria"/>
+  </session-factory>
+</hibernate-configuration>
